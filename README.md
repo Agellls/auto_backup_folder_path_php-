@@ -17,7 +17,7 @@ Then you have to Create a Service Account
 
 ## Edit file upload.php
 
-You need some configuration in [upload.php](https://)
+You need some configuration in [upload.php](https://github.com/Agellls/auto_backup_folder_path_php_without_login_account/blob/master/upload.php)
 
 ### Change the credentials name file
 
@@ -49,7 +49,7 @@ $emailPermission->setEmailAddress('YOUR EMAIL HERE'); //set your email
 $service->permissions->create($fileId, $emailPermission);
 ```
 
-Finally, we can call the file from the corn job now, example i want call the [upload.php](https://) from my hosting CyberPanel
+Finally, we can call the file from the corn job now, example i want call the [upload.php](https://github.com/Agellls/auto_backup_folder_path_php_without_login_account/blob/master/upload.php) from my hosting CyberPanel
 
 ```
 curl https://rummmor.com/test/auto-login-upload.php > /dev/null 2>&1
