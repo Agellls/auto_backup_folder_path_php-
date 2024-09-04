@@ -1,6 +1,11 @@
 # Auto backup folder path to php without login account
+The first time is you have to download Google api php client and extract with the same folder with <b>upload.php</b>
 
-The first time is you have to Create a Service Account
+<dl>
+  <dt>Google api php client</dt><dd><a href="https://github.com/googleapis/google-api-php-client/releases">https://github.com/googleapis/google-api-php-client/releases</a>
+</dl>
+
+Then you have to Create a Service Account
 
 <dl>
   <dt>Create a Service Account : </dt>
